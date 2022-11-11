@@ -1,4 +1,9 @@
-<template>index</template>
+<template>
+  <main>
+    <VSpacer space="my-[150px]" />
+    <Hero />
+  </main>
+</template>
 
 <script setup lang="ts">
 import { useHead } from '@vueuse/head';

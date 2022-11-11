@@ -8,7 +8,9 @@ import Components from 'unplugin-vue-components/vite';
 import Unocss from '@unocss/vite';
 import presetUno from '@unocss/preset-uno';
 import UnocssIcons from '@unocss/preset-icons';
+import presetAttributify from '@unocss/preset-attributify';
 import Pages from 'vite-plugin-pages';
+import svgLoader from 'vite-svg-loader';
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -25,6 +27,9 @@ export default defineConfig({
           },
         }),
         presetUno(),
+        presetAttributify({
+          /* options */
+        }),
       ],
     }),
     AutoImport({
@@ -47,6 +52,7 @@ export default defineConfig({
       dts: 'src/components.d.ts',
     }),
     Pages(),
+    svgLoader(),
   ],
   resolve: {
     alias: {

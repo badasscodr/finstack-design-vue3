@@ -1,0 +1,40 @@
+<template>
+  <div
+    bg="[#0000000a]"
+    top="[529px]"
+    left="[-15px]"
+    w="[257px]"
+    h-24
+    rounded-lg
+    class="absolute"
+  >
+    <img
+      src="https://i.ibb.co/X4B5jMW/image.png"
+      w="[285.73px]"
+      h="[123.82px]"
+      right="[16.88px]"
+      bottom="[18.22px]"
+      rotate="[-10.93deg]"
+      class="absolute"
+      alt=""
+    />
+  </div>
+  <div
+    top="[379px]"
+    right="[-14px]"
+    rounded-lg
+    bg="[#0000000a]"
+    class="absolute h-52 w-44"
+  >
+    <img
+      src="https://i.ibb.co/5xzHGyT/image.png"
+      bottom="[16px]"
+      left="[15.5px]"
+      w="[187.88px]"
+      h="[206.8px]"
+      rotate="[15deg]"
+      class="absolute"
+      alt=""
+    />
+  </div>
+</template>

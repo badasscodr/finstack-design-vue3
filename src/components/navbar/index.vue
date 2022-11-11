@@ -26,12 +26,16 @@
         </span>
       </div>
     </div>
-    <div class="justify-self-end">
-      <button
-        class="rounded-full border border-2 border-black h-12 w-32 font-bold font-normal text-lg leading-5"
-      >
-        Join Free
-      </button>
+    <div class="justify-self-end w-32">
+      <Button
+        shadow="7px 7px 0px #000000"
+        btnBorder="3px solid #000000"
+        bg-color="#FFFFFF"
+        color="#000000"
+        label="Join Free"
+        icon-color="#FFFFFF"
+        icon-size="20"
+      />
     </div>
   </nav>
 </template>
@@ -40,14 +44,14 @@
 nav {
   box-shadow: 0px 8px 100px rgba(0, 0, 0, 0.03);
   .logo-text {
-    font-family: $cabinet-grotesk-bold;
+    font-family: $cabinet-grotesk;
   }
   .menu-text {
-    font-family: $switzer-regular;
+    font-family: $switzer;
   }
   button {
     box-shadow: 4px 4px 0px #000000;
-    font-family: $public-sans-bold;
+    font-family: $public-sans;
   }
 }
 </style>
